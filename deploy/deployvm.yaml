@@ -1,0 +1,80 @@
+---
+- hosts: localhost
+  vars:
+    sgname: webinstsg
+    kpname: DevOpsTraining
+    vpcid: vpc-0fd82bcdc7447f943
+    region: us-east-1
+    myami: ami-0a7c018073dff4b13
+    instancetype: t2.micro
+    lbsgname: sg-03e7eb4f0dc7bd2d6
+    subnetid:
+      - subnet-0050164f5c3074f14
+      - subnet-03d23cf5ea2c82f5c
+    vmname: 
+      - webservers-1
+      - webservers-2
+  tasks:
+  - name: example using security group rule descriptions
+    ec2_group:
+      name: "{{ sgname }}"
+      description: Security Group for the instances
+      vpc_id: "{{ vpcid }}"
+      region: "{{ region }}"
+      rules:
+        - proto: tcp
+          ports:
+          - 80
+          - 22
+          - 443
+          cidr_ip: 0.0.0.0/0
+          rule_desc: allow all on port 80
+    register: webinstsg_output
+  - debug:
+      var: webinstsg_output
+  - name: Create VMs
+    ec2_instance:
+      region: "{{ region }}"      
+      key_name: "{{ kpname }}"
+      security_group: "{{ webinstsg_output.group_id }}"
+      instance_type: "{{ instancetype }}"
+      image_id: "{{ myami }}"
+      vpc_subnet_id: "{{ item[0] }}" 
+      network:
+        assign_public_ip: yes
+      name: "{{ item[1] }}"        
+      wait: yes
+      wait_timeout: 120
+    with_together:
+      - "{{ subnetid }}" 
+      - "{{ vmname }}"   
+    register: webinstance_output
+  - debug:
+      var: webinstance_output
+  - elb_classic_lb:
+      name: "DevOps-LabWorkspace"
+      state: present
+      region: us-east-1
+      security_group_ids: "{{lbsgname}}"
+      subnets: "{{ subnetid }}"
+      listeners:
+        - protocol: http
+          load_balancer_port: 80
+          instance_port: 80
+          proxy_protocol: True
+      health_check:
+        ping_protocol: http
+        ping_port: 80
+        ping_path: "/index.html"
+        response_timeout: 5
+        interval: 30
+        unhealthy_threshold: 2
+        healthy_threshold: 2
+  - name: Instance Register
+    ec2_elb:
+      instance_id: "{{ item.instance_ids[0] }}"
+      ec2_elbs: "DevOps-LabWorkspace"
+      region: "{{ region }}"
+      state: present
+    with_items:
+      "{{ webinstance_output.results }}"
