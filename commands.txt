@@ -1,0 +1,1019 @@
+pwd
+ls
+df -Th
+clear
+del README.md
+rm README.md
+cls
+clear
+ls
+clear
+rm -f .c9
+rm -r .c9
+clear
+rm -r .c9
+pwd
+cd ec2-user
+cd..
+cd\
+clear
+cd /home
+ls
+cd /ec2-user
+cd /ssm-user
+cd /ec2-user/environment/
+cd /ec2-user/environment\
+exit
+df -Th
+df
+df-T
+df -T
+clear
+lbldsk
+clear
+hostname
+uname -r
+git clone https://github.com/rajhmnw/DevOps-Training.git
+ls
+cd DevOps-Training
+clear
+ls
+cat LICENSE
+clear
+cd.
+cd..
+clear
+git -v
+git --version
+clear
+pwd
+cd /home/ec2-user/enviornment
+cd /home/ec2-user/enviornment/
+cd environment
+cd /home
+cd /ec2-user
+cd /ec2-user/environment
+cd ec2-user
+cd environment
+clear
+pwd
+clear
+ls
+cd DevOps-Training
+clear
+git push index.html
+clear
+git status
+git add index.html
+git push
+clear
+git push index.htm;
+git push index.html
+clear
+git push origin
+git push -u origin master
+git push -all origin master
+git push --all origin master
+git push origin master --all
+clear
+git commit -m "This is the first test file"
+git commit --amend --reset-author
+clear
+git push --all origin master
+git push origin master
+clear
+git status
+git history
+clear
+history
+clear
+git log
+git branch -v
+clear
+lblsblk
+clear
+du
+cd /environment
+cd environment
+clear
+cd\
+clear
+git branch test
+git branch dev
+git branch -d
+git branch -v
+git checkout test
+git branch -v
+git checkout dev
+git branch -v
+git commit -m "new Dev branch created"
+git push origin dev
+git checkout test
+git commit -m "new Test branch created"
+git push origin test
+git checkout dev
+git add *
+git commit -m "Initial commit from Dev branch"
+git branch -v
+git checkout test
+git merge dev
+git branch -v
+git merge -m "Initial commit to Test branch"
+git add *
+git merge -m "Initial commit to Test branch"
+git commit -m "Initial commit to Test branch"
+git checkout Dev
+clear
+git branch -v
+git checkout dev
+git merge test
+git branch -v
+git push dev
+git push origin
+git push origin dev
+git branch -v
+git checkout origin
+git checkout master
+git branch -v
+git merge dev
+git push
+git branch -v
+git remote -v
+history
+clear
+git checkout dev
+git push --set-upstream origin webdev
+git push --set-upstream origin/webdev
+git push --set-upstream webdev
+git push --set-upstream origin webdev
+git checkout master
+git pull master
+git clone
+git pull origin
+git checkout dev
+git push --set-upstream origin webdev
+git push --set-upstream origin dev:webdev
+git add *
+git commit -m "local changes"
+git push --set-upstream origin dev:webdev
+git pull webdev
+git pull origin webdev
+git branch -v --all
+git push --set-upstream origin dev:webdev
+git pull origin webdev
+git add *
+git commit -m "Resolving conflict"
+git push --set-upstream origin dev:webdev
+git checkout master
+git pull origin
+git branch -v
+git merge dev
+git checkout test
+git merge dev
+git push
+git push --set-upstream origin test
+git checkout master
+git push --set-upstream origin master
+git branch -v
+git fetch origin
+git branch -v
+git pull
+git pull origin webdev
+git pull origin webtest
+clear
+git branch -v
+git add *
+git merge -m "All merge"
+clear
+git branch -v
+cd DevOps-Training
+clear
+git init
+git fetch
+git branch -v
+git pull webdev
+git checkout webdev
+git checkout webtest
+clear
+git checkout master
+clear
+git branch -v
+git checkout webtest
+git merge test -m "Resolving conflict"
+git push
+git checkout master
+git branch -v
+git push origin
+clear
+cd /environment
+pwd
+cd /home/ec2-user/environment
+clear
+sudo yum -y install java-1.8.0-openjdk.x86_64
+sudo yum -y remove java-1.7.0-openjdk
+sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+sudo  rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
+sudo yum install -y  jenkins
+sudo systemctl start jenkins
+sudo  start jenkins
+sudo service jenkins start
+sudo chkconfig jenkins on
+javac
+java -v
+java
+java -version
+sudo yum repo --help
+sudo yum repolist
+sudo service jenkins status
+cd /var/lib/jenkins/secrets/initialAdminPassword
+clear
+cd /var
+cd /lib
+cd /jenkins
+ls -la
+cd /environment
+cd /home/ec2-user/environment
+clear
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+java -jar jenkins-cli.jar -s http://ec2-54-224-217-44.compute-1.amazonaws.com:8080/ help
+sudo service jenkins reload
+sudo service jenkins status
+sudo service jenkins reload
+sudo service jenkins status
+clear
+cd DevOps-Training
+clear
+git add*
+git add *
+git commit -m "Push to test jenkins"
+git checkout webdev
+git push --set-upstream master:webdev
+git push --set-upstream dev:webdev
+git push
+git push --set-upstream master:webdev
+git checkout master
+git push
+git checkout webdev
+git push
+git push --set-upstream master:webdev
+git push
+git add *
+git commit
+git push
+cd /home/ec2-user/environment
+clear
+sudo rpm -qa
+sudo rpm -qa|grep http|wc -l
+sudo rpm -qa|grep ftp|wc -l
+wget -o http://redrockdigimark.com/apachemirror/maven/binaries/apache-maven-3.2.2-bin.zip
+wget http://redrockdigimark.com/apachemirror/maven/binaries/apache-maven-3.2.2-bin.zip
+wget https://redrockdigimark.com/apachemirror/maven/binaries/apache-maven-3.2.2-bin.zip
+sudo yum install -y maven2
+wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+tar xzvf apache-maven-3.5.4-bin.tar.gz
+sudo mv apache-maven-3.5.4 /usr/local
+sudo mv apache-maven-3.5.4/* /usr/local/apache-maven-3.5.4
+sudo mv apache-maven-3.5.4 /usr/local
+tar xzvf apache-maven-3.5.4-bin.tar.gz
+sudo mv apache-maven-3.5.4 /usr/local
+rm -rf /usr/local/apache-maven-3.5.4
+chmod +rwx /usr/local/apache-maven-3.5.4
+rm -rf /usr/local/apache-maven-3.5.4
+sudo yum -y install java-1.8.0-openjdk-devel
+javac
+cd /usr/local/apache-maven-3.5.4/bin/mvn
+sudo mv apache-maven-3.5.4 /usr/local
+cd /usr/local/apache-maven-3.5.4/bin/mvn
+cd /usr/local/apache-maven-3.5.4/bin
+ls -la
+cd /mvn
+./mvn
+cd 
+/usr/local/apache-maven-3.5.4/bin/mvn
+clear
+cd /usr/local
+ls -la
+cd ./bin
+ls -la
+cd ./aws
+clear
+cd ..
+cd /var/lib/jenkins
+ls -la
+cd workspace/
+ls -la
+cd webdeploy@tmp
+ls -la\
+ls -la
+cd ..
+cd jobs/
+ls -la
+cd webdeploy
+ls -la
+cat config.xml
+cd builds
+ls -la
+cd 12/
+ls -la
+cat build.xml
+ls -la
+cat changelog.xml
+cat log
+cd ..
+cd..
+cd ..
+ls -la
+cd secrets/
+chmod rwx secrets/
+chmod +rwx secrets/
+cd secrets
+cs secret
+cd secret
+cd users/
+ls -la
+clear
+cd ..
+clear
+ls -la
+cat credentials
+cd credentials/
+cat credentials.xml
+cd fingerprints/
+clear
+ls -la
+cd 54/
+ls -la
+cd 0e/
+ls -la
+cat f327a48c7aa83cf1dbfeca0dbb67.xml
+cd ..
+cd 5c/
+ls -la
+cd 01/
+ls -la
+cat 1aacc4787c7001be8450b76ea0c0.xml 
+cd ..
+pwd
+cd /home/ec2-user/environment/
+clear
+sudo install ansible
+sudo install Ansible
+clear
+ansible -version
+wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+rpm -ivh epel-release-latest-7.noarch.rpm
+sudo yum install ansible -y
+ansible --version
+cd /etc/ansible
+ls -la
+cat hosts
+ls -la
+cat ansible.cfg 
+chmod 600 webkey.pem
+cd ..
+cd /home/ec2-user/environment/
+chmod 600 webkey.pem
+ls -la
+clear
+sudo vi /etc/ansible/ansible.cfg
+ansible -i ansiblehosts -m ping webservers
+sudo vi /etc/ansible/ansible.cfg
+ansible -i ansiblehosts -m ping webservers
+ansible-playbook -i ansiblehosts web.yaml
+cd DevOps-Training
+checkout master
+git init
+git checkout master
+ls -la
+git add *
+git commit -m "DevOps Technical Training Material"
+git push
+git branch -v
+checkout test
+git checkout test
+history
+git merge
+git merge master
+git commit -m "DevOps Technical Training material for testing git commands"
+git add *
+git commit -m "DevOps Technical Training material for testing git commands"
+git push --set-upstream master:test
+git push --set-upstream master/test
+git push --set-upstream test
+git push
+clear
+git checkout webdev
+clear
+git checkout master
+clear
+cd ..
+clear
+cd /var
+ls -la
+cd /tmp
+ls -la
+cd ..
+clear
+ls -la
+cd /var
+ls -la
+cd www\
+cd /www
+cd ww
+cd www
+clear
+ls -la
+cd error
+ls -ls
+cat contact.html.var
+clear
+cd..
+cd
+ls -la
+cd /environment
+cd environment
+clear
+ls -la
+cat 1
+clear
+hoptop
+clear
+ansible-playbook -i ansiblehosts web.yaml
+ls -la
+chmod 600 webkey.pem
+ansible-playbook -i ansiblehosts web.yaml
+cd DevOps-Training/
+git init
+git add *
+git commit -m "New Commit"
+git push
+clear
+git exit
+clear
+cd ..
+clear
+ansible-playbook -i ansiblehosts web.yaml
+sudo pip install boto boto3 botocore
+pip install --upgrade pip
+ansible-playbook createimage.yaml
+ansible-playbook createimage.yaml -e "ansible_python_interpreter=/usr/bin/python"
+aws s3 ls
+clear
+git clone https://github.com/mohanraz81/ansibleautomation
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+mv ~/.aws ~/.awsbkup
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+clear
+ansible-playbook deployvm.yaml -e "ansible_python_interpreter=/usr/bin/python"
+sudo service jenkins status
+sudo service jenkinsreload
+sudo service jenkins reload
+cd DevOps-Training/
+git init
+git add *
+git commit -m "Ansible Auto Deployment Script"
+git push
+sudo service jenkins status
+clear
+checkout webdev
+git checkout webdev
+git merge
+git add *
+git merge
+git merge master
+git push
+git pull
+git cp webdev webtest
+checkout webdev
+git checkout webdev
+clear
+git checkout webtest
+clear
+git merge webdev:webtest
+clear
+git add *
+git commit -m "merged"
+git branch -v
+ls -la
+git add *
+git commit -m "Commit master"
+git push
+clear
+git pull origin
+git branch -v
+git --push-upstream master:webdev
+history
+git push --set-upstream master:webdev
+git push --set-upstream master webdev
+clear
+git checkout master
+git add *
+git commit -m "simple fix"
+git checkout wendev
+git checkout webdev
+git add *
+git commit -m ""
+clear
+ls -la
+cd ansibleautomation/
+cd ..
+clear
+cd DevOps-Training/
+git init
+git fetch
+git checkout master
+git push
+git branch -v
+checkout dev
+git checkout dev
+git pull
+git commit -m "branch update"
+git push
+git push origin HEAD:dev
+git branch -v
+clear
+sudo yum install docker
+docker pull nginx
+ls -la
+cd ..
+ls -la
+clear
+cd usr
+cd usr/
+ls -la
+cd ..
+ls -la
+cd ..
+clear
+ls -la
+cd ..
+ls -la
+cd etc
+ls -la
+cat sudo.conf
+chmod +755 sudo.conf
+cd ..
+ls -la
+cd var
+ls -la
+cd www
+ls -la
+cd html
+ls -la
+clear
+cd..
+cd ..
+cd /home
+cd ssm-user
+cd ec2-user/
+cd environment/
+clear
+sudo service docker start
+sudo service docker status
+sudo service docker enable
+sudo service docker force-reload
+clear
+sudo service docker status
+sudo usermod -a -G docker ec2-user
+exit
+docker info
+cd ..
+cd /var/lib/docker
+clear
+ls -la
+cd ..
+ls -la
+cd php
+ls -la
+cd 5.6/
+ls -la
+cd ..
+cd /home/ec2-user/environment
+clear
+docker pull busybox
+docker run -it --rm busybox
+clear
+docker pull httpd
+cd /usr/local/apache2/htdocs/
+cd ..
+cd usr/
+cd local/
+cd apache2/
+clear
+cd /home/ec2-user/environment
+clear
+docker pull httpd:2.4
+docker images
+docker rm image httpd:latest
+clear
+docker images
+cd devopstrainingapp/
+docker build -t rajhmnw/devopstrainingapache:1.0 .
+cd frontend
+docker build -t rajhmnw/devopstrainingapache:1.0 .
+docker images
+cd
+cd environment/
+clear
+docker images
+docker run --name rajhmnw -d -p 9000rajhmnw/devopstrainingapache:1.0
+docker run --name rajhmnw -d -p 9000:80 rajhmnw/devopstrainingapache:1.0
+curl http://localhost:9000
+ip -a
+ifconfig
+docker ps
+docker ps -a
+docker logs 5a7de601c2e5
+docker stop 5a7de601c2e5; docker rm 5a7de601c2e5
+cd devopstrainingapp/frontend
+docker build -t rajhmnw/devopstrainingapache:1.1 .
+docker images
+docker run --name rajhmnw -d -p 9000rajhmnw/devopstrainingapache:1.1
+docker run --name rajhmnw -d -p 9000 rajhmnw/devopstrainingapache:1.1
+curl http://localhost:9000
+docker ps
+cd
+cd environment/
+curl http://localhost:9000
+docker run --name rajhmnw -d -p 9000:80 rajhmnw/devopstrainingapache:1.1
+docker stop c54c41d43905; docker rm c54c41d43905
+docker run --name rajhmnw -d -p 9000:80 rajhmnw/devopstrainingapache:1.1
+curl http://localhost:9000
+ip a
+docker stop c54c41d43905; docker rm c54c41d43905
+docker ps
+docker stop dc195a00d73d; docker rm dc195a00d73d
+cd devopstrainingapp/frontend
+docker build -t rajhmnw/devopstrainingapache:1.3 .
+docker run --name rajhmnw -d -p 9000:80 rajhmnw/devopstrainingapache:1.3
+docker ps
+docker stop a71f11500542; docker rm a71f11500542
+docker build -t rajhmnw/devopstrainingapache:1.4 .
+docker run --name rajhmnw -d -p 9000:80 rajhmnw/devopstrainingapache:1.4
+cd
+cd devopslabexercise
+ls -la
+cd ec2-user
+cd environment
+clear
+cd devopslabexercise/
+cd frontend
+docker build -t rajhmnw/devopslabexercise:1.0 .
+docker images
+docker run --name rajhmnw -d -p 9000:80 rajhmnw/devopslabexercise:1.0
+docker run --name rajhmnwnginx -d -p 9000:80 rajhmnw/devopslabexercise:1.0
+docker run --name rajhmnw -d -p 9001:80 rajhmnw/devopslabexercise:1.0
+docker run --name rajhmnwnginx -d -p 9001:80 rajhmnw/devopslabexercise:1.0
+docker ps
+docker run --name nginx -d -p 9001:80 rajhmnw/devopslabexercise:1.0
+docker ps
+docker stop e0120bc91d51; docker rm e0120bc91d51
+docker build -t rajhmnw/devopslabexercise:1.1 .
+docker run --name nginx -d -p 9001:80 rajhmnw/devopslabexercise:1.1
+docker run --name nginxserver -d -p 9001:80 rajhmnw/devopslabexercise:1.1
+docker ps
+docker run --name nginxserver -d -p 9001:80 rajhmnw/devopslabexercise:1.1
+docker build -t rajhmnw/devopslabexercise:2.0 .
+docker run --name nginxserver -d -p 9001:80 rajhmnw/devopslabexercise:2.0
+docker run --name nginxsrv -d -p 9001:80 rajhmnw/devopslabexercise:2.0
+docker ps
+docker build -t rajhmnw/devopslabexercise:2.1 .
+docker run --name nginxsrvr -d -p 9001:80 rajhmnw/devopslabexercise:2.1
+docker ps
+docker build -t rajhmnw/devopslabexercise:2.1 .
+docker ps
+docker build -t rajhmnw/devopslabexercise:2.1 .
+docker run --name nginxsrvr -d -p 9001:80 rajhmnw/devopslabexercise:2.1
+docker run --name nginxsvr -d -p 9001:80 rajhmnw/devopslabexercise:2.1
+docker ps
+docker build -t rajhmnw/devopslabexercise:2.1 .
+docker run --name webserver -d -p 9001:80 rajhmnw/devopslabexercise:2.1
+docker ps
+docker logs
+docker logs 462a7815a967891d99742cefd7ceaf71d7bf111f1719ad45e35d18c9c4f964a5
+docker build -t rajhmnw/devopslabexercise:2.1 .
+docker ps
+docker run --name websrvr -d -p 9001:80 rajhmnw/devopslabexercise:2.1
+docker ps
+docker stop 2f6ddef90f71; docker rm 2f6ddef90f71
+docker build -t rajhmnw/devopslabexercise:2.1 .
+docker run --name testwebserver -d -p 9001:80 rajhmnw/devopslabexercise:2.1
+docker ps
+docker stop 025faadcb60a; docker rm 025faadcb60a
+docker build -t rajhmnw/devopslabexercise:2.1 .
+docker ps
+docker run --name tstwebserver -d -p 9001:80 rajhmnw/devopslabexercise:2.1
+docker ps
+cd DevOps-Training/
+checkout master
+git init
+git checkout master
+git add *
+git merge -m "Docker Lab work"
+git push
+ls -la
+git add *
+git commit
+git commit -m "Docker Lab Work"
+git push
+git add *
+git commit -m "Dockerfile changes"
+git push origin
+sysctl net.ipv4.conf.all.forwarding
+docker history tstwebserver
+docker history rajhmnw/devopslabexercise:2.1
+docker images --all
+docker remove rajhmnw/devopstrainingapache :1.0
+docker rm rajhmnw/devopstrainingapache :1.0
+docker rm rajhmnw/devopstrainingapache:1.0
+docker rm rajhmnw/devopslabworkspace:1.0
+docker images
+docker rm rajhmnw/devopslabexercise:1.0
+docker rm 8fa67a8b0d18
+cd
+clear
+cd /var/lib
+ls -la
+cd docker
+ls -la
+clear
+cd volumes
+cd
+cd environment/
+clear
+cd /var/lib
+ls -la
+cd cloud
+ls -la
+cd scripts
+ls -la
+cd per-boot
+ls -la
+cd /environment/
+cd
+cd /environment/
+cd environment
+clear
+clear
+docker ps
+docker stop 67ad9d7acdc0; docker remove 67ad9d7acdc0
+docker stop tstwebserver; docker rm tstwebserver
+clear
+docker ps -a
+docker stop webserver nginxsvr nginxsrvr nginxsrv nginxserver nginx rajhmnwnginx; docker rm webserver nginxsvr nginxsrvr nginxsrv nginxserver nginx rajhmnwnginx
+docker images
+docker run --name apachewebserver -d -p 9000:80 -v apachewebserver_var_log: /var/log rajhmnw/devopstrainingapache:1.4
+docker run --name apachewebserver -d -p 9000:80 -v apachewebserver_var_log:/var/log rajhmnw/devopstrainingapache:1.4
+docker volume ls
+docker inspect apachewebserver_var_log
+cd /var/lib/docker/volumes/apachewebserver_var_log/_data
+sudo bash
+docker exec -it apachewebserver /bin/bash
+docker run -dit --name logagent -v apachewebserver_var_log:/apache_var_log:ro ubuntu:18.04
+docker exec -it logagent /bin/bash
+docker stop apachewebserver; docker rm apachewebserver
+docker volume ls
+docker ps
+docker ps -a
+docker stop 9fc23308e2db 6dbe65c77da5 1698afe75fa7 8835356ae4b7 0e0627c7eeff; docker rm 9fc23308e2db 6dbe65c77da5 1698afe75fa7 8835356ae4b7 0e0627c7eeff
+clear
+docker ps -a
+clear
+docker run -dit --name logagent -v /home/ec2-user:/home/ec2-user ubuntu:18.04
+docker exec -it logagent /bin/bash
+docker ps -a
+docker stop 0e92d5567ef3; docker rm 0e92d5567ef3
+history
+clear
+docker images
+docker inspect rajhmnw/devopslabexercise
+docker inspect rajhmnw/devopslabexercise:2.1
+docker login
+docker tag rajhmnw/devopslabexercise:2.1 rajhmnw/devopslabexercise:latest
+docker tag rajhmnw/devopslabexercise:2.1 rajhmnw/devopslabexercise:first
+docker push rajhmnw/devopslabexercise
+docker tag rajhmnw/devopslabexercise:2.0 rajhmnw/devopslabexercise:latest
+docker push rajhmnw/devopslabexercise
+docker push rajhmnw/devopstrainingapache 
+clear
+wget -O kops https://github.com/kubernetes/kops/releases/download/1.8.1/kops-linux-amd64
+cd..
+cd ..
+dig ns student13.courseandlabs.com
+chmod +x ./kops
+sudo mv ./kops /usr/local/bin/
+wget -O kubectl https://storage.googleapis.com/kubernetes-release/release/v1.8.1/bin/linux/amd64/kubectl
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
+sudo yum -y install wget
+cat kops
+sudo yum -y install epel-release-latest-7.noarch.rpm
+sudo yum -y install python-pip
+sudo pip install awscli
+kops
+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+aws s3api create-bucket --bucket kube-student13-courseandlabs-com --region us-east-1
+aws s3api put-bucket-versioning --bucket kube-student13-courseandlabs-com  --versioning-configuration Status=Enabled
+echo "export NAME=kubecluster.student13.courseandlabs.com" >> ~/.bash_profile
+echo "export KOPS_STATE_STORE=s3://kube-student13-courseandlabs-com" >> ~/.bash_profile
+echo "export NAME=kubecluster.student13.courseandlabs.com" >> ~/.bash_profile
+echo "export KOPS_STATE_STORE=s3://kube-student13-courseandlabs-com" >> ~/.bash_profile
+echo NAME
+echo $NAME
+echo $KOPS_STATE_STORE
+clear
+whoami
+clear
+df .
+df
+echo $NAME
+echo $KOPS_STATE_STORE
+ssh-keygen
+kops create cluster     --zones=us-east-1a,us-east-1b,us-east-1c     --master-zones=us-east-1a,us-east-1b,us-east-1c     --node-count=4     --node-size=t2.small     --master-size=t2.small     --authorization RBAC     --name ${NAME} --yes
+kops delete cluster $NAME --yes
+mv ~/.aws ~/.awsbkup
+kops create cluster     --zones=us-east-1a,us-east-1b,us-east-1c     --master-zones=us-east-1a,us-east-1b,us-east-1c     --node-count=4     --node-size=t2.small     --master-size=t2.small     --authorization RBAC     --name ${NAME} --yes
+kops validate cluster
+cat ~/.kube/config
+kubectl get nodes
+kubectl get namespace
+kubectl get pods
+kubectl get services
+kubectl get deployments
+kubectl get deployment
+kubectl create -f /home/ec2-user/environment/nginxdeploy.yml
+kubectl apply -f /home/ec2-user/environment/nginxdeploy.yml
+kubectl delete deployment nginx-deployment
+kubectl delete service frontend
+clear
+kubectl get pods --namespace=kube-system
+kubectl create namespace nginxwebserver
+kubectl describe namespace nginxwebserver
+kubectl config set-context $(kubectl config current-context) --namespace=nginxwebserver
+kubectl config view | grep namespace:
+kubectl apply -f nginxdeploy.yml -–namespace=nginxwebserver
+kubectl apply -f nginxdeploy.yml
+kubectl describe deployment nginx-deployment
+kubectl get pods -l app=nginx
+kubectl describe pod nginx-deployment-7774b966c5-2zlwd
+kubectl describe pod nginx-deployment-7774b966c5-4mgxp
+kubectl describe deployment nginx-deployment > kubernetes.txt
+kubectl describe deployment nginx-deployment > kubernetee-deployment.txt
+kubectl describe deployment nginx-deployment > kubernetes-deployment.txt
+kubectl get pods -l app=nginx > kubernetes-pods.txt
+kubectl describe pod nginx-deployment-7774b966c5-2zlwd > kubernetes-pod-nginx-deployment-7774b966c5-2zlwd.txt
+kubectl describe pod nginx-deployment-7774b966c5-4mgxp > kubernetes-pod-nginx-deployment-7774b966c5-4mgxp.txt
+kubectl describe replication set > kubernetes-replication-set.txt
+kubectl describe replicationset > kubernetes-replication-set.txt
+kubectl describe replication-set > kubernetes-replication-set.txt
+kubectl get services
+kubectl describe service frontend
+kubectl delete deployment nginx-deployment
+kubectl delete service frontend
+kubectl apply -f nginxdeploy.yml
+kubectl describe pod nginx-deployment-7774b966c5-2zlwd
+curl http://www .student13.courseandlabs.com
+curl http://www.student13.courseandlabs.com
+kubectl delete deployment nginx-deployment
+kubectl delete service frontend
+kubectl apply -f nginx-deploy.yaml -–namespace=nginxwebserver
+kubectl config set-context $(kubectl config current-context) --namespace=nginxwebserver
+kubectl apply -f nginxdeploy.yml
+curl http://www.student13.courseandlabs.com
+kubectl get pod
+kubectl describe pod nginx-deployment-6d6d5d6c4-bt5sx
+kubectl get pod
+kubectl describe pod nginx-deployment-6d6d5d6c4-pzmpr
+curl http://www.student13.courseandlabs.com
+kubectl describe deployment nginx-deployment
+kubectl delete deployment nginx-deployment
+kubectl delete service frontend
+kubectl apply -f nginxdeploy.yml
+cd devopslabexercise
+cd frontend
+docker images
+docker build -t rajhmnw/devopslabexercise:3.0
+docker build -t rajhmnw/devopslabexercise:3.0 .
+docker push rajhmnw/devopslabexercise:3.0
+cd ..
+dcoker run --name --test -d rajhmnw/devopslabexercise:3.0
+docker run --name --test -d rajhmnw/devopslabexercise:3.0
+docker run --name test -d rajhmnw/devopslabexercise:3.0
+docker ps
+docker stop 50b437073573; docker rm 50b437073573
+kubectl get pods
+kubectl get services
+kubectl exec -it nginx-deployment-79c74dbffc-5bv8x /bin/bash
+curl http://www.student13.courseandlabs.com
+curl http://a808b7c1188e811e9ac77124088ecf2e-404989758.us-east-1.elb.amazonaws.com/
+curl htt://a8d3a32cf88eb11e9ac77124088ecf2e-1138227400.us-east-1.elb.amazonaws.com
+curl http://a8d3a32cf88eb11e9ac77124088ecf2e-1138227400.us-east-1.elb.amazonaws.com
+kubectl apply -f nginxdeploy.yml
+kubectl get rs
+kubectl get pods
+kubectl exec -it nginx-deployment-6c686d8bb9-wmpn9 /bin/bash
+kubectl get services frontend
+kubectl delete all -all
+kubectl delete all --all
+clear
+git clone https://github.com/kubernetes/heapster.git
+cd heapster 
+kubectl apply -f deploy/kube-config/influxdb/
+kubectl apply -f deploy/kube-config/rbac/heapster-rbac.yaml
+kubectl apply -f deploy/kube-config/influxdb/
+kubectl apply -f deploy/kube-config/rbac/heapster-rbac.yaml
+kubectl get deployment --namespace=kube-system
+kubectl get services --namespace=kube-system
+cd ..
+kubectl apply -f autoscaling.yml
+kubectl get hpa
+kubectl apply -f autoscaling.yml
+kubectl get hpa
+kubectl apply -f autoscaling.yml
+kubectl get hpa
+kubectl apply -f autoscaling.yml
+kubectl get hpa
+kubectl apply -f autoscaling.yml
+kubectl get hpa
+kubectl apply -f autoscaling.yml
+kubectl get hpa
+kubectl apply -f autoscaling.yml
+kubectl get hpa
+cd DevOps-Training/
+git inti
+git init
+git pull
+git add *
+git push
+git merge -m "Kubernetes exercise"
+git add *
+git push
+git push origin master
+git branch -v
+git add *
+git push
+cd ..
+clear
+git clone https://github.com/rajhmnw/threetier.git
+kubectl run -i --tty load-generator --image=busybox /bin/sh
+clear
+cd threetier/
+git init
+git add *
+git commit -m "three tier app deployment"
+git push
+cd ..
+clear
+service jenkins status
+sudo service jenkins status
+ip a
+sudo usermod -a -G docker jenkins
+sudo service jenkins restart
+service jenkins status
+sudo service jenkins status
+cat /home/ec2-user/.kube
+ls -la /home/ec2-user/.kube
+sudo cp -R /home/ec2-user/.kube /var/lib/jenkins
+ls -la /var/lib/jenkins
+sudo chown -R jenking:jenkins /var/lib/jenkins/.kube/
+sudo chown -R jenkins:jenkins /var/lib/jenkins/.kube/
+clear
+cd three
+cd threetier/
+git init
+git add *
+git commit -m "test"
+git push
+cd ..
+clear
+kubctl get pods
+kubectl delete deployment nginx-deployment
+kubectl delete deployment frontend
+kubectl delete deployment backend
+kubectl get pods
+kubectl get deployments
+kubectl delete deployment load-generator
+kubectl get deployments
+kubectl get pods
+curl http://kuberneteslabexercise.student13.courseandlabs.com/
+kubectl get pods
+curl http://kuberneteslabexercise.student13.courseandlabs.com/
+dig ns kuberneteslabexercise.student13.courseandlabs.com
+curl http://kuberneteslabexercise.student13.courseandlabs.com/
+clear

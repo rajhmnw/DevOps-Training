@@ -1,0 +1,3 @@
+NAME                                READY     STATUS             RESTARTS   AGE
+nginx-deployment-7774b966c5-2zlwd   0/1       CrashLoopBackOff   5          4m
+nginx-deployment-7774b966c5-4mgxp   0/1       CrashLoopBackOff   5          4m

@@ -1,0 +1,62 @@
+Name:           nginx-deployment-7774b966c5-4mgxp
+Namespace:      nginxwebserver
+Node:           ip-172-20-103-136.ec2.internal/172.20.103.136
+Start Time:     Fri, 07 Jun 2019 05:52:58 +0000
+Labels:         app=nginx
+                pod-template-hash=3330652271
+Annotations:    kubernetes.io/created-by={"kind":"SerializedReference","apiVersion":"v1","reference":{"kind":"ReplicaSet","namespace":"nginxwebserver","name":"nginx-deployment-7774b966c5","uid":"80807e37-88e8-11e9-af...
+Status:         Running
+IP:             100.96.4.4
+Created By:     ReplicaSet/nginx-deployment-7774b966c5
+Controlled By:  ReplicaSet/nginx-deployment-7774b966c5
+Containers:
+  nginx:
+    Container ID:  docker://3a7a4a97fc9194450ce52cb052d5b64bfc6beda4cc67ba17c8fe3101a95e2259
+    Image:         rajhmnw/devopslabexercise:latest
+    Image ID:      docker-pullable://rajhmnw/devopslabexercise@sha256:3911236a07de28aaf6ecb5763e92dae4d334e6f3396fb7199d99a271e8f58bad
+    Port:          80/TCP
+    State:         Waiting
+      Reason:      CrashLoopBackOff
+    Last State:    Terminated
+      Reason:      ContainerCannotRun
+      Message:     oci runtime error: container_linux.go:247: starting container process caused "exec: \"/usr/bin/nginx\": stat /usr/bin/nginx: no such file or directory"
+
+      Exit Code:    127
+      Started:      Fri, 07 Jun 2019 05:55:49 +0000
+      Finished:     Fri, 07 Jun 2019 05:55:49 +0000
+    Ready:          False
+    Restart Count:  5
+    Limits:
+      cpu:     1
+      memory:  500Mi
+    Requests:
+      cpu:        500m
+      memory:     200Mi
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-ztk4q (ro)
+Conditions:
+  Type           Status
+  Initialized    True 
+  Ready          False 
+  PodScheduled   True 
+Volumes:
+  default-token-ztk4q:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-ztk4q
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.alpha.kubernetes.io/notReady:NoExecute for 300s
+                 node.alpha.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason                 Age               From                                     Message
+  ----     ------                 ----              ----                                     -------
+  Normal   Scheduled              5m                default-scheduler                        Successfully assigned nginx-deployment-7774b966c5-4mgxp to ip-172-20-103-136.ec2.internal
+  Normal   SuccessfulMountVolume  5m                kubelet, ip-172-20-103-136.ec2.internal  MountVolume.SetUp succeeded for volume "default-token-ztk4q"
+  Normal   Pulling                4m (x4 over 5m)   kubelet, ip-172-20-103-136.ec2.internal  pulling image "rajhmnw/devopslabexercise:latest"
+  Normal   Pulled                 4m (x4 over 5m)   kubelet, ip-172-20-103-136.ec2.internal  Successfully pulled image "rajhmnw/devopslabexercise:latest"
+  Normal   Created                4m (x4 over 5m)   kubelet, ip-172-20-103-136.ec2.internal  Created container
+  Warning  Failed                 4m (x4 over 5m)   kubelet, ip-172-20-103-136.ec2.internal  Error: failed to start container "nginx": Error response from daemon: oci runtime error: container_linux.go:247: starting container process caused "exec: \"/usr/bin/nginx\": stat /usr/bin/nginx: no such file or directory"
+  Warning  BackOff                4m (x2 over 4m)   kubelet, ip-172-20-103-136.ec2.internal  Back-off restarting failed container
+  Warning  FailedSync             8s (x28 over 5m)  kubelet, ip-172-20-103-136.ec2.internal  Error syncing pod
