@@ -1,3 +1,5 @@
+AMAZON AWS URL - http://labsap.s3-website-us-west-1.amazonaws.com
+
 pwd
 ls
 df -Th
